@@ -1,0 +1,103 @@
+<svg width="712px" height="357px"
+ viewBox="0.00 0.00 711.69 356.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 352.5)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-352.5 707.69,-352.5 707.69,4 -4,4"/>
+<text text-anchor="start" x="336.47" y="-7.2" font-family="Times,serif" font-size="14.00">slides</text>
+<!-- ready -->
+<g id="node1" class="node">
+<title>ready</title>
+<polygon fill="lightgrey" stroke="black" stroke-width="1.01" points="410.71,-348.5 276.96,-348.5 276.96,-312.5 410.71,-312.5 410.71,-348.5"/>
+<text text-anchor="start" x="284.96" y="-325.45" font-family="Times,serif" font-size="14.00">Presentation is Ready</text>
+</g>
+<!-- all -->
+<g id="node2" class="node">
+<title>all</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="482.16,-276.5 262.12,-276.5 205.51,-240.5 425.56,-240.5 482.16,-276.5"/>
+<text text-anchor="start" x="282.71" y="-253.45" font-family="Times,serif" font-size="14.00">All conditions are met</text>
+</g>
+<!-- all&#45;&gt;ready -->
+<g id="edge1" class="edge">
+<title>all&#45;&gt;ready</title>
+<path fill="none" stroke="black" d="M343.84,-276.8C343.84,-284.09 343.84,-292.77 343.84,-300.96"/>
+<polygon fill="black" stroke="black" points="340.34,-300.88 343.84,-310.88 347.34,-300.88 340.34,-300.88"/>
+</g>
+<!-- legal -->
+<g id="node3" class="node">
+<title>legal</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="332.71,-204.5 162.96,-204.5 162.96,-168.5 332.71,-168.5 332.71,-204.5"/>
+<text text-anchor="start" x="170.96" y="-181.45" font-family="Times,serif" font-size="14.00">content is approved by legal</text>
+</g>
+<!-- legal&#45;&gt;all -->
+<g id="edge2" class="edge">
+<title>legal&#45;&gt;all</title>
+<path fill="none" stroke="black" d="M271.57,-204.8C283.45,-213.47 298.03,-224.1 310.98,-233.54"/>
+<polygon fill="black" stroke="black" points="308.68,-236.2 318.83,-239.26 312.81,-230.54 308.68,-236.2"/>
+</g>
+<!-- compliant -->
+<g id="node4" class="node">
+<title>compliant</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="327.68,-132.5 67.05,-132.5 0,-96.5 260.63,-96.5 327.68,-132.5"/>
+<text text-anchor="start" x="89.96" y="-109.45" font-family="Times,serif" font-size="14.00">Check contents w.r.t. NDA</text>
+</g>
+<!-- compliant&#45;&gt;legal -->
+<g id="edge3" class="edge">
+<title>compliant&#45;&gt;legal</title>
+<path fill="none" stroke="black" d="M184.6,-132.8C194.8,-141.3 207.26,-151.69 218.42,-160.99"/>
+<polygon fill="black" stroke="black" points="215.94,-163.47 225.86,-167.18 220.42,-158.09 215.94,-163.47"/>
+</g>
+<!-- available -->
+<g id="node5" class="node">
+<title>available</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="468.71,-60.5 346.96,-60.5 346.96,-24.5 468.71,-24.5 468.71,-60.5"/>
+<text text-anchor="start" x="354.96" y="-37.45" font-family="Times,serif" font-size="14.00">Slides are available</text>
+</g>
+<!-- available&#45;&gt;compliant -->
+<g id="edge5" class="edge">
+<title>available&#45;&gt;compliant</title>
+<path fill="none" stroke="black" d="M346.9,-60.98C313,-70.71 270.62,-82.86 235.19,-93.03"/>
+<polygon fill="black" stroke="black" points="234.53,-89.58 225.88,-95.7 236.46,-96.31 234.53,-89.58"/>
+</g>
+<!-- grammar -->
+<g id="node8" class="node">
+<title>grammar</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="703.69,-132.5 419.18,-132.5 345.99,-96.5 630.5,-96.5 703.69,-132.5"/>
+<text text-anchor="start" x="443.46" y="-109.45" font-family="Times,serif" font-size="14.00">Check for Grammar or Typos</text>
+</g>
+<!-- available&#45;&gt;grammar -->
+<g id="edge4" class="edge">
+<title>available&#45;&gt;grammar</title>
+<path fill="none" stroke="black" d="M437.06,-60.98C451.97,-69.9 470.3,-80.87 486.34,-90.47"/>
+<polygon fill="black" stroke="black" points="484.31,-93.33 494.69,-95.46 487.91,-87.32 484.31,-93.33"/>
+</g>
+<!-- nda -->
+<g id="node6" class="node">
+<title>nda</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="211.96,-60.5 115.71,-60.5 115.71,-24.5 211.96,-24.5 211.96,-60.5"/>
+<text text-anchor="start" x="123.71" y="-37.45" font-family="Times,serif" font-size="14.00">NDA is signed</text>
+</g>
+<!-- nda&#45;&gt;compliant -->
+<g id="edge6" class="edge">
+<title>nda&#45;&gt;compliant</title>
+<path fill="none" stroke="black" d="M163.84,-60.8C163.84,-68.09 163.84,-76.77 163.84,-84.96"/>
+<polygon fill="black" stroke="black" points="160.34,-84.88 163.84,-94.88 167.34,-84.88 160.34,-84.88"/>
+</g>
+<!-- decent -->
+<g id="node7" class="node">
+<title>decent</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="570.46,-204.5 393.21,-204.5 393.21,-168.5 570.46,-168.5 570.46,-204.5"/>
+<text text-anchor="start" x="401.21" y="-181.45" font-family="Times,serif" font-size="14.00">Professional standard are met</text>
+</g>
+<!-- decent&#45;&gt;all -->
+<g id="edge7" class="edge">
+<title>decent&#45;&gt;all</title>
+<path fill="none" stroke="black" d="M447.37,-204.98C429.37,-214.11 407.15,-225.39 387.91,-235.15"/>
+<polygon fill="black" stroke="black" points="386.55,-231.91 379.22,-239.55 389.72,-238.15 386.55,-231.91"/>
+</g>
+<!-- grammar&#45;&gt;decent -->
+<g id="edge8" class="edge">
+<title>grammar&#45;&gt;decent</title>
+<path fill="none" stroke="black" d="M514.21,-132.8C509.42,-140.6 503.65,-149.99 498.32,-158.67"/>
+<polygon fill="black" stroke="black" points="495.39,-156.75 493.14,-167.11 501.35,-160.42 495.39,-156.75"/>
+</g>
+</g>
+</svg>

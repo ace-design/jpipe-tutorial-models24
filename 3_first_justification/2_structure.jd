@@ -1,0 +1,14 @@
+justification notebook_quality {
+
+    conclusion shareable is "Notebook can be shared"
+
+    strategy gate        is "Assess quality gates are met"
+    gate supports shareable
+
+    sub-conclusion repro  is "Execution environment is reproducible"
+    repro    supports gate
+
+    sub-conclusion fair is "Notebook code quality is fair"
+    fair     supports gate 
+
+}

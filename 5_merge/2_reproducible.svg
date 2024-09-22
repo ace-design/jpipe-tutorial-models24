@@ -1,0 +1,61 @@
+<svg width="505px" height="357px"
+ viewBox="0.00 0.00 505.27 356.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 352.5)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-352.5 501.27,-352.5 501.27,4 -4,4"/>
+<text text-anchor="start" x="214.51" y="-7.2" font-family="Times,serif" font-size="14.00">reproducible</text>
+<!-- shareable -->
+<g id="node1" class="node">
+<title>shareable</title>
+<polygon fill="lightgrey" stroke="black" stroke-width="1.01" points="322.26,-348.5 175.01,-348.5 175.01,-312.5 322.26,-312.5 322.26,-348.5"/>
+<text text-anchor="start" x="183.01" y="-325.45" font-family="Times,serif" font-size="14.00">Notebook can be shared</text>
+</g>
+<!-- gate -->
+<g id="node2" class="node">
+<title>gate</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="419.23,-276.5 147.85,-276.5 78.04,-240.5 349.42,-240.5 419.23,-276.5"/>
+<text text-anchor="start" x="171.39" y="-253.45" font-family="Times,serif" font-size="14.00">Assess quality gates are met</text>
+</g>
+<!-- gate&#45;&gt;shareable -->
+<g id="edge1" class="edge">
+<title>gate&#45;&gt;shareable</title>
+<path fill="none" stroke="black" d="M248.64,-276.8C248.64,-284.09 248.64,-292.77 248.64,-300.96"/>
+<polygon fill="black" stroke="black" points="245.14,-300.88 248.64,-310.88 252.14,-300.88 245.14,-300.88"/>
+</g>
+<!-- repro -->
+<g id="node3" class="node">
+<title>repro</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="362.76,-204.5 134.51,-204.5 134.51,-168.5 362.76,-168.5 362.76,-204.5"/>
+<text text-anchor="start" x="142.51" y="-181.45" font-family="Times,serif" font-size="14.00">Execution environment is reproducible</text>
+</g>
+<!-- repro&#45;&gt;gate -->
+<g id="edge2" class="edge">
+<title>repro&#45;&gt;gate</title>
+<path fill="none" stroke="black" d="M248.64,-204.8C248.64,-212.09 248.64,-220.77 248.64,-228.96"/>
+<polygon fill="black" stroke="black" points="245.14,-228.88 248.64,-238.88 252.14,-228.88 245.14,-228.88"/>
+</g>
+<!-- linear -->
+<g id="node4" class="node">
+<title>linear</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="497.27,-132.5 101.75,-132.5 0,-96.5 395.52,-96.5 497.27,-132.5"/>
+<text text-anchor="start" x="132.39" y="-109.45" font-family="Times,serif" font-size="14.00">Verify notebook has linear execution order</text>
+</g>
+<!-- linear&#45;&gt;repro -->
+<g id="edge3" class="edge">
+<title>linear&#45;&gt;repro</title>
+<path fill="none" stroke="black" d="M248.64,-132.8C248.64,-140.09 248.64,-148.77 248.64,-156.96"/>
+<polygon fill="black" stroke="black" points="245.14,-156.88 248.64,-166.88 252.14,-156.88 245.14,-156.88"/>
+</g>
+<!-- notebook -->
+<g id="node5" class="node">
+<title>notebook</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="309.89,-60.5 187.39,-60.5 187.39,-24.5 309.89,-24.5 309.89,-60.5"/>
+<text text-anchor="start" x="195.39" y="-37.45" font-family="Times,serif" font-size="14.00">notebook file exists</text>
+</g>
+<!-- notebook&#45;&gt;linear -->
+<g id="edge4" class="edge">
+<title>notebook&#45;&gt;linear</title>
+<path fill="none" stroke="black" d="M248.64,-60.8C248.64,-68.09 248.64,-76.77 248.64,-84.96"/>
+<polygon fill="black" stroke="black" points="245.14,-84.88 248.64,-94.88 252.14,-84.88 245.14,-84.88"/>
+</g>
+</g>
+</svg>

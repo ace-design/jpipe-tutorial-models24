@@ -1,0 +1,13 @@
+<svg width="155px" height="69px"
+ viewBox="0.00 0.00 155.25 68.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 64.5)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-64.5 151.25,-64.5 151.25,4 -4,4"/>
+<text text-anchor="start" x="26.38" y="-7.2" font-family="Times,serif" font-size="14.00">notebook_quality</text>
+<!-- shareable -->
+<g id="node1" class="node">
+<title>shareable</title>
+<polygon fill="lightgrey" stroke="black" stroke-width="1.01" points="147.25,-60.5 0,-60.5 0,-24.5 147.25,-24.5 147.25,-60.5"/>
+<text text-anchor="start" x="8" y="-37.45" font-family="Times,serif" font-size="14.00">Notebook can be shared</text>
+</g>
+</g>
+</svg>

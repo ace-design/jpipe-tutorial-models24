@@ -1,0 +1,61 @@
+<svg width="357px" height="357px"
+ viewBox="0.00 0.00 356.69 356.50" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1.0 1.0) rotate(0.0) translate(4.0 352.5)">
+<polygon fill="white" stroke="none" points="-4,4 -4,-352.5 352.69,-352.5 352.69,4 -4,4"/>
+<text text-anchor="start" x="148.84" y="-7.2" font-family="Times,serif" font-size="14.00">fair_code</text>
+<!-- shareable -->
+<g id="node1" class="node">
+<title>shareable</title>
+<polygon fill="lightgrey" stroke="black" stroke-width="1.01" points="247.97,-348.5 100.72,-348.5 100.72,-312.5 247.97,-312.5 247.97,-348.5"/>
+<text text-anchor="start" x="108.72" y="-325.45" font-family="Times,serif" font-size="14.00">Notebook can be shared</text>
+</g>
+<!-- gate -->
+<g id="node2" class="node">
+<title>gate</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="344.94,-276.5 73.56,-276.5 3.75,-240.5 275.13,-240.5 344.94,-276.5"/>
+<text text-anchor="start" x="97.09" y="-253.45" font-family="Times,serif" font-size="14.00">Assess quality gates are met</text>
+</g>
+<!-- gate&#45;&gt;shareable -->
+<g id="edge1" class="edge">
+<title>gate&#45;&gt;shareable</title>
+<path fill="none" stroke="black" d="M174.34,-276.8C174.34,-284.09 174.34,-292.77 174.34,-300.96"/>
+<polygon fill="black" stroke="black" points="170.84,-300.88 174.34,-310.88 177.84,-300.88 170.84,-300.88"/>
+</g>
+<!-- fair -->
+<g id="node3" class="node">
+<title>fair</title>
+<polygon fill="none" stroke="dodgerblue" stroke-width="1.01" points="261.84,-204.5 86.84,-204.5 86.84,-168.5 261.84,-168.5 261.84,-204.5"/>
+<text text-anchor="start" x="94.84" y="-181.45" font-family="Times,serif" font-size="14.00">Notebook code quality is fair</text>
+</g>
+<!-- fair&#45;&gt;gate -->
+<g id="edge2" class="edge">
+<title>fair&#45;&gt;gate</title>
+<path fill="none" stroke="black" d="M174.34,-204.8C174.34,-212.09 174.34,-220.77 174.34,-228.96"/>
+<polygon fill="black" stroke="black" points="170.84,-228.88 174.34,-238.88 177.84,-228.88 170.84,-228.88"/>
+</g>
+<!-- pep8 -->
+<g id="node4" class="node">
+<title>pep8</title>
+<polygon fill="palegreen" stroke="black" stroke-width="1.01" points="348.69,-132.5 71.35,-132.5 0,-96.5 277.34,-96.5 348.69,-132.5"/>
+<text text-anchor="start" x="95.22" y="-109.45" font-family="Times,serif" font-size="14.00">Check PEP8 coding standard</text>
+</g>
+<!-- pep8&#45;&gt;fair -->
+<g id="edge3" class="edge">
+<title>pep8&#45;&gt;fair</title>
+<path fill="none" stroke="black" d="M174.34,-132.8C174.34,-140.09 174.34,-148.77 174.34,-156.96"/>
+<polygon fill="black" stroke="black" points="170.84,-156.88 174.34,-166.88 177.84,-156.88 170.84,-156.88"/>
+</g>
+<!-- notebook -->
+<g id="node5" class="node">
+<title>notebook</title>
+<polygon fill="#a4d3ee" stroke="black" stroke-width="1.01" points="235.59,-60.5 113.09,-60.5 113.09,-24.5 235.59,-24.5 235.59,-60.5"/>
+<text text-anchor="start" x="121.09" y="-37.45" font-family="Times,serif" font-size="14.00">notebook file exists</text>
+</g>
+<!-- notebook&#45;&gt;pep8 -->
+<g id="edge4" class="edge">
+<title>notebook&#45;&gt;pep8</title>
+<path fill="none" stroke="black" d="M174.34,-60.8C174.34,-68.09 174.34,-76.77 174.34,-84.96"/>
+<polygon fill="black" stroke="black" points="170.84,-84.88 174.34,-94.88 177.84,-84.88 170.84,-84.88"/>
+</g>
+</g>
+</svg>

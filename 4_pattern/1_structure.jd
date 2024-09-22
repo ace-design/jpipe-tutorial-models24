@@ -1,0 +1,14 @@
+pattern reproducibility {
+
+    conclusion shareable is "Notebook can be shared"
+
+    strategy gate        is "Assess quality gates are met"
+    gate supports shareable
+
+    @support repro  is "Execution environment is reproducible"
+    repro    supports gate
+
+    @support fair is "Notebook code quality is fair"
+    fair     supports gate 
+
+}
